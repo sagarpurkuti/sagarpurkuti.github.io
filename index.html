@@ -85,11 +85,24 @@
             bottom: 0;
             width: 100%;
         }
+
+        .rounded-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border: 2px solid #fff; /* Optional: adds a white border */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: adds a shadow */
+}
+
     </style>
 </head>
 <body>
     <header>
         <h1>My Portfolio</h1>
+        
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyIYC7lh9P30jPrZVSXNM-h6eaDVnfHgZpEA&s" class="rounded-image" alt="Your Name" style="max-width: 100%; height: auto; margin-top: 10px;">
+        
     </header>
 
     <div class="container">
